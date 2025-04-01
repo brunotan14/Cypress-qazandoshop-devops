@@ -1,0 +1,16 @@
+{
+  "name": "qazandoshop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+     "Cypress: Open": "npx cypress open",
+     "Cypress: Headless": "npx cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^14.2.1"
+  }
+}
