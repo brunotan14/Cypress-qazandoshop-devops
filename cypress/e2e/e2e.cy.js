@@ -27,7 +27,7 @@ describe ('Acessando o site', () =>{
         cy.get('.links_Product_areas > .theme-btn-one').should('be.visible').click() // adicioando ao carrinho
         cy.get('.swal2-popup').should('be.visible').click()
 
-        cy.wait(5000) // Espera 3 segundos (ajuste conforme necessário)
+        cy.wait(5000) 
         cy.get(':nth-child(3) > .offcanvas-toggle > .fa', { timeout: 10000 }).should('be.visible').click() // abrindo o carrinho
         cy.get('.offcanvas-cart-action-button > :nth-child(2) > .theme-btn-one').should('be.visible').click()
 

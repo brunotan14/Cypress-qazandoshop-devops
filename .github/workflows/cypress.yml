@@ -1,5 +1,7 @@
 name: Cypress Qazandoshop tests
-on: [push] 
+on: 
+  push:
+    branches: [ "main", "bruno" ]
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
